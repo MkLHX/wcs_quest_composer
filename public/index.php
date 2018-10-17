@@ -1,11 +1,11 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require '../vendor/autoload.php';
 
 use App\Wcs\Hello;
 use HelloWorld\SayHello;
 
 $hello = new Hello();
-echo $hello;
+echo $hello->talk();
 
 $helloWorld = new SayHello();
-echo $helloWorld;
+echo $helloWorld->World();
